@@ -1,0 +1,10 @@
+For this project, I backpedaled slightly from my original goal once I realized
+it was beyond my capability to do in a single weekend.
+
+This then almost moved to Morse code, but then I randomly thought of that
+"Monsters Vs. Aliens" movie, and the two buttons scene, which also made me
+think of some similar scenes for launching nukes, where there was a
+two-key system. I wanted to riff on this, so I wrote some code (attached here)
+that tracks the duration of a dual button press. If it greater than or equal to
+10 seconds, the console prints "MISSILE ARMED". A little silly, but it was pretty
+fun to put together!
