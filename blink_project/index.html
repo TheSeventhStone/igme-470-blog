@@ -7,14 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-  <h1>Blink Project: M-HALL Synth</h1>
+  <div id="ctr">
+    <h1>Blink Project: M-HALL Synth</h1>
   <video src="media/blink_proj_demo.mp4" controls></video>
   <p>For this demo, I wanted to incorporate a Piezo speaker into my project to make some music.</p>
   <img src="media/mhall_schem.png" id="schem">
-  <p>I was inspired by having to play recorder in elementary school, and wanted to make a simple 3-note synth.</p>
+  <p>I was inspired by having to play recorder in elementary school, and wanted to make a simple 3-note synth replicating that simple, charming, and mildy annoying experience.<br>
+  In order to get the Piezo working, I had to dig in a bit to the functioning of tone() in Arduino. I also had to rewire the Piezo to receive a digital signal instead of transmitting an analog response.</p>
   <img src="media/blink_phys.jpg", id="phys">
-  <p>Thus the name "M-HALL" - short for Mary Had A Little Lamb, as that's one of the few playable songs.</p>
+  <p>Thus the name <b>M-HALL</b> - short for <b>M</b>ary <b>H</b>ad <b>A</b> <b>L</b>ittle <b>L</b>amb, as that's one of the few playable songs.</p>
   <p>The LEDs light up at the same time their respective button's note is played.</p>
   <p>To get the respective pitches, I used <a href="https://github.com/D4Q2/SaberCPPScripts/blob/main/PassiveBuzzerMusic.ino">this</a> link to find the Piezo equivalencies to standard pitches.</p>
+  </div>
 </body>
 </html>
